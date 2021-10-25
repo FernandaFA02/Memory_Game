@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-5.memory_game",
+  "version": "1.0.0",
+  "description": "Application to play a memory game online",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandaFA02/Memory_Game.git"
+  },
+  "keywords": [
+    "Memory",
+    "Game",
+    "Online"
+  ],
+  "author": "Fernanda Fajardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FernandaFA02/Memory_Game/issues"
+  },
+  "homepage": "https://github.com/FernandaFA02/Memory_Game#readme"
+}

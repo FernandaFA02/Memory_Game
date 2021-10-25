@@ -1,0 +1,6 @@
+
+    # ignorar estos  archivos
+
+package-lock.json
+.eslintrc.json
+/node_modules

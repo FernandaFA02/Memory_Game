@@ -5,7 +5,7 @@
 ## Indice
 
 1. _Descripción_
-2. _Definición del Usuario_
+2. _Definición del Usuario y User Stories_
 3. _Hacker Edition_
 4. _Planeación_
 5. _Diagrama de flujo_
@@ -15,34 +15,50 @@
 
 ----
 
-## _**Descripción**_
+## **Descripción**
+
+_Aplicación para jugar memorama en línea._
 
 ----
 
-## _**Definición del usuario**_
+## **Definición del usuario y User Stories**
+
+### **Definición del usuario**
+
+Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
+### **User Stories**
+* _Los usuarios quieren jugar un juego en el sitio con un compañero para pasar el tiempo._
+
+* _El usuario quiere tener un juego de memoria que trate sobre algún tema relacionado con sus intereses._
+
+* _El usuario quiere ver al ganador y al perdedor del juego por puntuación, mostrando sus nombres._
+
+* _Debería haber un botón de reinicio para volver a jugar y comenzar un nuevo juego eliminando las puntuaciones pero no los nombres de usuario._
 
 ----
 
-## _**Hacker Edition**_
+## **Hacker Edition**
 
 ----
 
-## _**Planeación**_
+## **Planeación**
 
 ![1.Planeación](./Data/assets/Planeacion1.png)
 
-----
-
-## _**Diagrama de flujo**_
+![2.Planeación](./Data/assets/Planeación2.png)
 
 ----
 
-## _**Maquetación**_
+## **Diagrama de flujo**
 
 ----
 
-## _**Pseudocódigo**_
+## **Maquetación**
 
 ----
 
-## _**Producto final**
+## **Pseudocódigo**
+
+----
+
+## **Producto final**

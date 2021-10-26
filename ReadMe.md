@@ -51,9 +51,13 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ## **Diagrama de flujo**
 
+![Diagrama](./Data/assets/Memory_Game.png)
+
 ----
 
 ## **Maquetación**
+
+![Maquetacion](./Data/assets/Maquet1.png)
 
 ----
 

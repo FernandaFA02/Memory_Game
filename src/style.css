@@ -1,0 +1,70 @@
+
+body{
+    display: grid;
+    width: auto;
+    height: 100vh;
+    background-color: #621fa2;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.3fr;
+    grid-template-areas: 
+    "h1 h1 h1 h1 h1 h1 h1"
+    "player1 player1 section section section section section"
+    "player2 player2 section section section section section"
+    "button button section section section section section"
+    "footer footer footer footer footer footer footer";
+}
+
+h1{
+    grid-area: h1;
+    border: 1px dotted black;
+    background-color: #104e00;
+    color: blanchedalmond;
+}
+
+#player1{
+    grid-area: player1;
+    border: 1px dotted black;
+    background-color: #0e001f;
+    color: blanchedalmond;
+}
+
+#player2{
+    grid-area: player2;
+    border: 1px dotted black;
+    background-color: #082100;
+    color: blanchedalmond;
+}
+
+section{
+    grid-area: section;
+    border: 1px dotted black;
+    background-color: #2e0f50;
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 1em;
+}
+
+button{
+    grid-area: button;
+
+}
+
+footer{
+    grid-area: footer;
+    border: 1px dotted black;
+    background-color: #104e00;
+    color: blanchedalmond;
+}
+
+#memory-card{
+    width: 9em;
+    height: 10em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    text-align: center;
+    border: 1px dotted black;
+}

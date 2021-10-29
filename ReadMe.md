@@ -61,9 +61,9 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ## **Maquetación**
 
-![Maquetacion](./Data/assets/Maquet1.png)
-
 ![Maquetación](./Data/assets/Maquet2.png)
+
+![Maquetacion](./Data/assets/Maquet1.png)
 
 ----
 

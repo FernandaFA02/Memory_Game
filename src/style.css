@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rock+Salt&family=Satisfy&display=swap');
 body{
     display: grid;
     width: auto;
@@ -19,6 +20,8 @@ h1{
     border: 1px dotted black;
     background-color: #104e00;
     color: blanchedalmond;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 #player1{
@@ -26,6 +29,7 @@ h1{
     border: 1px dotted black;
     background-color: #0e001f;
     color: blanchedalmond;
+    font-family: 'Satisfy', cursive;
 }
 
 #player2{
@@ -33,6 +37,7 @@ h1{
     border: 1px dotted black;
     background-color: #082100;
     color: blanchedalmond;
+    font-family: 'Satisfy', cursive;
 }
 
 section{
@@ -43,10 +48,12 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap: 1em 1em;
+    font-family: 'Satisfy', cursive;
 }
 
 button{
     grid-area: button;
+    font-family: 'Satisfy', cursive;
 
 }
 
@@ -55,11 +62,13 @@ footer{
     border: 1px dotted black;
     background-color: #104e00;
     color: blanchedalmond;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 #memory-card{
-    width: 9em;
-    height: 10em;
+    width: 8em;
+    height: 8em;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -67,4 +76,5 @@ footer{
     padding: 1.5em;
     text-align: center;
     border: 1px dotted black;
+    font-family: 'Satisfy', cursive;
 }

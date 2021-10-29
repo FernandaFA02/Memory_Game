@@ -26,7 +26,9 @@ _Aplicación para jugar memorama en línea._
 ### **Definición del usuario**
 
 Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
+
 ### **User Stories**
+
 * _Los usuarios quieren jugar un juego en el sitio con un compañero para pasar el tiempo._
 
 * _El usuario quiere tener un juego de memoria que trate sobre algún tema relacionado con sus intereses._
@@ -47,6 +49,8 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ![2.Planeación](./Data/assets/Planeación2.png)
 
+![3.Planeación](./Data/assets/Planeacion3.png)
+
 ----
 
 ## **Diagrama de flujo**
@@ -58,6 +62,8 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 ## **Maquetación**
 
 ![Maquetacion](./Data/assets/Maquet1.png)
+
+![Maquetación](./Data/assets/Maquet2.png)
 
 ----
 

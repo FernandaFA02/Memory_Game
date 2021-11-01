@@ -1,4 +1,4 @@
-//Se trae la data del JSON con un fetch
+/*//Se trae la data del JSON con un fetch
 fetch("../Data/memory.json")
 .then((response) => response.json())
 .then((data) => iterarPersonajes(data))
@@ -26,3 +26,4 @@ let iterarPersonajes = (data) => {
 
     }
 }
+*/

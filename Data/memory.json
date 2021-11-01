@@ -2,104 +2,123 @@
     "Memorama": [
         {
             "Personaje": "Maléfica",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Maléfica.png",
-            "Logo": "./Data/assets/Villanos/Logo.jpg"
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Maléfica.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Maléfica",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Maléfica.png"
-        },
-        {
-            "Personaje": "Hades",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Hades.png"
+            "Imagen": "../Data/assets/Villanos/Maléfica.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Hades",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Hades.png"
+            "Imagen": "../Data/assets/Villanos/Hades.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
+        },
+        {
+            "Personaje": "Hades",
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Hades.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Cruella De Vill",
-            "Value":1,
-            "Imagen": "./Data./assets/Villanos/Cruella_De_Vil.png"
+            "Value":2,
+            "Imagen": "../Data/assets/Villanos/Cruella_De_Vil.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Cruella De Vill",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Cruella_De_Vil.png"
-        },
-        {
-            "Personaje": "Scar",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Scar.png" 
+            "Imagen": "../Data/assets/Villanos/Cruella_De_Vil.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Scar",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Scar.png"
+            "Imagen": "../Data/assets/Villanos/Scar.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg" 
+        },
+        {
+            "Personaje": "Scar",
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Scar.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Madam Mim",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Madam_Mim.png"
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Madam_Mim.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Madam Mim",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Madam_Mim.png"
-        },
-        {
-            "Personaje": "Shere Khan",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/shere_khan.png"
+            "Imagen": "../Data/assets/Villanos/Madam_Mim.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Shere Khan",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/shere_khan.png"
+            "Imagen": "../Data/assets/Villanos/shere_khan.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
-            "Personaje": "Dr. Facilier",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Dr.Facilier.png"
+            "Personaje": "Shere Khan",
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/shere_khan.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Dr. Facilier",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Dr.Facilier.png"
+            "Imagen": "../Data/assets/Villanos/Dr.Facilier.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
+        },
+        {
+            "Personaje": "Dr. Facilier",
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Dr.Facilier.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Shan Yu",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Shan_yu.png"
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Shan_yu.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje":"Shan Yu",
             "Value": 2,
-            "Imagen":"./Data./assets/Villanos/Shan_yu.png"
-        },
-        {
-            "Personaje": "Ursula",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Ursula.png"
+            "Imagen":"../Data/assets/Villanos/Shan_yu.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Ursula",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Ursula.png"
+            "Imagen": "../Data/assets/Villanos/Ursula.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
-            "Personaje": "Yzma",
-            "Value": 1,
-            "Imagen": "./Data./assets/Villanos/Yzma.png"
+            "Personaje": "Ursula",
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Ursula.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         },
         {
             "Personaje": "Yzma",
             "Value": 2,
-            "Imagen": "./Data./assets/Villanos/Yzma.png"
+            "Imagen": "../Data/assets/Villanos/Yzma.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
+        },
+        {
+            "Personaje": "Yzma",
+            "Value": 2,
+            "Imagen": "../Data/assets/Villanos/Yzma.png",
+            "Logo": "../Data/assets/Villanos/Logo.jpg"
         }
 
 

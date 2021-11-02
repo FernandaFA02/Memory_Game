@@ -12,7 +12,7 @@ let iterarTarjetas = (data) => {
     for (const tarjeta of data.Memorama) {
         console.log(tarjeta.Personaje)
         memorama.innerHTML += `<div class="memory-container">
-        <div class="memory-portrait">
+        <div class="memory-portrait" id="memory-card">
         <div class="memory-cover" id='${tarjeta.Logo}'></div>
         <div class="memory-back"> <img src='${tarjeta.Imagen}'> 
         </div>
@@ -20,3 +20,5 @@ let iterarTarjetas = (data) => {
         </div>`;
     }
 }
+
+

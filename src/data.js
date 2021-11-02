@@ -13,15 +13,10 @@ let iterarTarjetas = (data) => {
         console.log(tarjeta.Personaje)
         memorama.innerHTML += `<div class="memory-container">
         <div class="memory-portrait">
-        <div class="memory-cover" id='${tarjeta.Personaje}'></div>
-        <div class="memory-back">
-        <h6>${tarjeta.Personaje}</h6>
+        <div class="memory-cover" id='${tarjeta.Logo}'></div>
+        <div class="memory-back"> <img src='${tarjeta.Imagen}'> 
         </div>
         </div>
         </div>`;
-    
-        let portadaTarjeta = document.getElementById(`${tarjeta.Personaje}`)
-        portadaTarjeta.style.backgroundImage = "url(" + `${tarjeta.Logo}` + ")"
-        portadaTarjeta.style.backgroundSize = "cover"
     }
 }

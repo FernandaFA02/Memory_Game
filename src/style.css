@@ -6,7 +6,7 @@
 body{
     display: grid;
     width: auto;
-    background-color: #000000;
+    background-color: #cea2ac;
     height: 100vh;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 0.5fr 3fr 0.3fr;
@@ -14,6 +14,8 @@ body{
     "header header header"
     "section main main"
     "footer footer footer";
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 /*-------------------Se agregan las grid-area--------------------------------------------*/
@@ -28,7 +30,7 @@ header{
 
 section{
     grid-area: section;
-    background-color: #551382;
+    background-color: #132a13;
     color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -59,7 +61,7 @@ footer{
 /*----------Css flip transitions---------------*/
 
 .memory-container{
-    width: 140px;
+    width: 145px;
     height: 150px;
     background-color: transparent;
     perspective: 1000px;
@@ -86,7 +88,8 @@ footer{
 }
 
 .memory-cover{
-    background-color: #a22c29;
+    background-image: url(../Data/assets/Villanos/Logo.jpg);
+    background-size: cover;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -97,8 +100,11 @@ footer{
 }
 
 .memory-back{
-    background-color: blanchedalmond;
+    background-size: cover;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transform: rotateY(180deg);
     border-radius: 10px;
     padding: 1.5em;

@@ -14,7 +14,7 @@ let iterarTarjetas = (data) => {
     //console.log(data.Memorama)
 
     //Se agrega el metodo sort() para revolver las cartas
-   // data.Memorama.sort(() => Math.random() - 0.5)
+    //data.Memorama.sort(() => Math.random() - 0.5)
     //se utilia un for of para iterar las tarjetas 
     for (const tarjeta of data.Memorama) {
         //console.log(tarjeta.Personaje)

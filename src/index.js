@@ -1,9 +1,11 @@
 //Se importan modulos
 import { getCards } from "./data.js";
-
-
+let player1 = document.getElementById('jugador-1');
+let player2 = document.getElementById('jugador-2');
 let score1 = document.getElementById('score-1');
 let score2 = document.getElementById('score-2');
+player2.style.color = "#fff"
+player1.style.color = "#ea3634"
 score1.innerHTML = "0"
 score2.innerHTML = "0"
 
@@ -59,7 +61,7 @@ window.memory = {
                     puntuacion1++;
                     console.log(puntuacion1);
                     document.getElementById('score-1').innerHTML = puntuacion1;
-                    document.getElementById('jugador-1').style.color = "#4c683c";
+                    document.getElementById('jugador-1').style.color = "#fff";
                     document.getElementById('jugador-2').style.color = "#f79105";
                 }else{
                     console.log("turno playe1");
@@ -67,8 +69,8 @@ window.memory = {
                     puntuacion2++;
                     console.log(puntuacion2)
                     document.getElementById('score-2').innerHTML = puntuacion2;
-                    document.getElementById('jugador-1').style.color = "#f79105";
-                    document.getElementById('jugador-2').style.color = "#4c683cs"
+                    document.getElementById('jugador-1').style.color = "#ea3634";
+                    document.getElementById('jugador-2').style.color = "#fff"
                 }
                 //Aquí se puede hacer una funcion para agregar el sonido
             }else{
@@ -85,9 +87,13 @@ window.memory = {
                 if(turn){
                     console.log("turno player2");
                     turn = false;
+                    document.getElementById('jugador-1').style.color = "#fff";
+                    document.getElementById('jugador-2').style.color = "#f79105";
                 }else{
                     console.log("turno player1");
                     turn = true;
+                    document.getElementById('jugador-1').style.color = "#ea3634";
+                    document.getElementById('jugador-2').style.color = "#fff"
                 }
             }
         }

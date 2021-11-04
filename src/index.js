@@ -16,8 +16,7 @@ let carta1;
 let id1;
 let carta2;
 let id2;
-let winner;
-let turn = 0;
+let turn = true;
 let puntuacion1 = 0;
 let puntuacion2 = 0;
 
@@ -56,7 +55,11 @@ window.memory = {
                 carta2 = null;
                 id1 = null;
                 id2 = null;
-            
+            if(turn == false){
+                
+            }else{
+                
+            }
 
             }else{
                 //alert("no fue un match")

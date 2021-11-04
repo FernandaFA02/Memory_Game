@@ -1,12 +1,9 @@
 //Se importan modulos
 import { getCards } from "./data.js";
 
-let player1 = document.getElementById('jugador-1');
-let player2 = document.getElementById('jugador-2');
+
 let score1 = document.getElementById('score-1');
 let score2 = document.getElementById('score-2');
-player1.style.color = '#FF4501'
-player2.style.color = '#1DF301'
 score1.innerHTML = "0"
 score2.innerHTML = "0"
 
@@ -55,12 +52,25 @@ window.memory = {
                 carta2 = null;
                 id1 = null;
                 id2 = null;
-            if(turn == false){
-                
-            }else{
-                
-            }
-
+                //Agregando puntaje de primer jugador
+                if(turn){
+                    console.log("turno player 2");
+                    turn = false;
+                    puntuacion1++;
+                    console.log(puntuacion1);
+                    document.getElementById('score-1').innerHTML = puntuacion1;
+                    document.getElementById('jugador-1').style.color = "#4c683c";
+                    document.getElementById('jugador-2').style.color = "#f79105";
+                }else{
+                    console.log("turno playe1");
+                    turn = true;
+                    puntuacion2++;
+                    console.log(puntuacion2)
+                    document.getElementById('score-2').innerHTML = puntuacion2;
+                    document.getElementById('jugador-1').style.color = "#f79105";
+                    document.getElementById('jugador-2').style.color = "#4c683cs"
+                }
+                //Aquí se puede hacer una funcion para agregar el sonido
             }else{
                 //alert("no fue un match")
                 setTimeout (() => {
@@ -71,7 +81,14 @@ window.memory = {
                 carta2 = null;
                 id1 = null;
                 id2 = null;
-                },2000)
+                },2000);
+                if(turn){
+                    console.log("turno player2");
+                    turn = false;
+                }else{
+                    console.log("turno player1");
+                    turn = true;
+                }
             }
         }
     }

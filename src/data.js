@@ -11,13 +11,13 @@ fetch("../Data/memory.json")
 let memorama = document.getElementById("juego");
 //Se iteran el JSON de los personajes
 let iterarTarjetas = (data) => {
-    console.log(data.Memorama)
+    //console.log(data.Memorama)
 
     //Se agrega el metodo sort() para revolver las cartas
-    data.Memorama.sort(() => Math.random() - 0.5)
+    //data.Memorama.sort(() => Math.random() - 0.5)
     //se utilia un for of para iterar las tarjetas 
     for (const tarjeta of data.Memorama) {
-        console.log(tarjeta.Personaje)
+        //console.log(tarjeta.Personaje)
         memorama.innerHTML += `<div class="memory-container">
         <div class="memory-portrait" id='${tarjeta.Id}_flip' onclick="checkClick('${tarjeta.Personaje}', '${tarjeta.Id}')">
         <div class="memory-cover" id='${tarjeta.Logo}'></div>
@@ -26,7 +26,6 @@ let iterarTarjetas = (data) => {
         </div>
         </div>`;
     }
-//iterarTarjetas.sort(() => 0.5 - Math.random())
     }
 
 

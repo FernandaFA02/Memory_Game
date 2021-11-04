@@ -1,81 +1,114 @@
+/*--------------Se agregan las fuentes que se utilizarán en el proyecto------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rock+Salt&family=Satisfy&display=swap');
+
+/*-------Estilos para el body------------------------------------------------------------*/
 body{
     display: grid;
     width: auto;
+    background-color: #000000;
     height: 100vh;
-    background-color: #621fa2;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.3fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.5fr 3fr 0.3fr;
     grid-template-areas: 
-    "h1 h1 h1 h1 h1 h1 h1"
-    "player1 player1 section section section section section"
-    "player2 player2 section section section section section"
-    "button button section section section section section"
-    "footer footer footer footer footer footer footer";
+    "header header header"
+    "section main main"
+    "footer footer footer";
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
-h1{
-    grid-area: h1;
-    border: 1px dotted black;
-    background-color: #104e00;
+/*-------------------Se agregan las grid-area--------------------------------------------*/
+
+header{
+    grid-area: header;
     color: blanchedalmond;
-    text-align: center;
     font-family: 'Berkshire Swash', cursive;
-}
-
-#player1{
-    grid-area: player1;
-    border: 1px dotted black;
-    background-color: #0e001f;
-    color: blanchedalmond;
-    font-family: 'Satisfy', cursive;
-}
-
-#player2{
-    grid-area: player2;
-    border: 1px dotted black;
-    background-color: #082100;
-    color: blanchedalmond;
-    font-family: 'Satisfy', cursive;
+    text-align: center;
 }
 
 section{
     grid-area: section;
-    border: 1px dotted black;
-    background-color: #2e0f50;
+    color: blanchedalmond;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+main{
+    grid-area: main;
     color: blanchedalmond;
     display: flex;
     flex-wrap: wrap;
     gap: 1em 1em;
-    font-family: 'Satisfy', cursive;
-}
-
-button{
-    grid-area: button;
-    font-family: 'Satisfy', cursive;
-
 }
 
 footer{
     grid-area: footer;
-    border: 1px dotted black;
-    background-color: #104e00;
     color: blanchedalmond;
+    font-family: 'Berkshire Swash', cursive;
     text-align: center;
+}
+
+/*---------------Se agregan estilos a links en footer------------*/
+#social{
+    color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
 }
 
-#memory-card{
-    width: 8em;
-    height: 8em;
-    border-radius: 10px;
+/*----------Css flip transitions---------------*/
+
+.memory-container{
+    width: 145px;
+    height: 150px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.memory-portrait{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/*
+.memory-portrait:hover{
+    transform: rotateY(180deg);
+}*/
+
+.memory-cover, .memory-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /*compatibilidad para internet explorer*/
+}
+
+.memory-cover{
+    background-image: url(../Data/assets/Villanos/fondo2.jpg);
+    background-size: cover;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     padding: 1.5em;
     text-align: center;
-    border: 1px dotted black;
-    font-family: 'Satisfy', cursive;
 }
 
+.memory-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}

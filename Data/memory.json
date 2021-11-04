@@ -6,7 +6,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Maléfica.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Mal"
+            "dataframework": "Mal"
         },
         {
             "Personaje": "Maléfica",
@@ -14,7 +14,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Maléfica.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Mal"
+            "dataframework": "Mal"
         },
         {
             "Personaje": "Hades",
@@ -22,7 +22,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Hades.jpg",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Had"
+            "dataframework": "Had"
         },
         {
             "Personaje": "Hades",
@@ -30,7 +30,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Hades.jpg",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Had"
+            "dataframework": "Had"
         },
         {
             "Personaje": "Cruella De Vill",
@@ -38,7 +38,7 @@
             "Value":2,
             "Imagen": "../Data/assets/Villanos/Cruella_De_Vil.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Had"
+            "dataframework": "Had"
         },
         {
             "Personaje": "Cruella De Vill",
@@ -46,7 +46,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Cruella_De_Vil.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Cruel"
+            "dataframework": "Cruel"
         },
         {
             "Personaje": "Scar",
@@ -54,7 +54,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Scar.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg" ,
-            "Data_Framework": "Cruel"
+            "dataframework": "Cruel"
         },
         {
             "Personaje": "Scar",
@@ -62,7 +62,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Scar.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Scar"
+            "dataframework": "Scar"
         },
         {
             "Personaje": "Madam Mim",
@@ -70,7 +70,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Madam_Mim.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Mad"
+            "dataframework": "Mad"
         },
         {
             "Personaje": "Madam Mim",
@@ -78,7 +78,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Madam_Mim.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Mad"
+            "dataframework": "Mad"
         },
         {
             "Personaje": "Shere Khan",
@@ -86,7 +86,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/shere_khan.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Shere"
+            "dataframework": "Shere"
         },
         {
             "Personaje": "Shere Khan",
@@ -94,7 +94,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/shere_khan.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework":"Shere"
+            "dataframework":"Shere"
         },
         {
             "Personaje": "Dr. Facilier",
@@ -102,7 +102,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Dr.Facilier.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Dr"
+            "dataframework": "Dr"
         },
         {
             "Personaje": "Dr. Facilier",
@@ -110,7 +110,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Dr.Facilier.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Dr"
+            "dataframework": "Dr"
         },
         {
             "Personaje": "Shan Yu",
@@ -118,7 +118,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Shan_yu.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Shan"
+            "dataframework": "Shan"
         },
         {
             "Personaje":"Shan Yu",
@@ -126,7 +126,7 @@
             "Value": 2,
             "Imagen":"../Data/assets/Villanos/Shan_yu.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Shan"
+            "dataframework": "Shan"
         },
         {
             "Personaje": "Ursula",
@@ -134,7 +134,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Ursula.jpg",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Urs"
+            "dataframework": "Urs"
         },
         {
             "Personaje": "Ursula",
@@ -142,7 +142,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Ursula.jpg",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Urs"
+            "dataframework": "Urs"
         },
         {
             "Personaje": "Yzma",
@@ -150,7 +150,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Yzma.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Yz"
+            "dataframework": "Yz"
         },
         {
             "Personaje": "Yzma",
@@ -158,7 +158,7 @@
             "Value": 2,
             "Imagen": "../Data/assets/Villanos/Yzma.png",
             "Logo": "../Data/assets/Villanos/Logo.jpg",
-            "Data_Framework": "Yz"
+            "dataframework": "Yz"
         }
 
 

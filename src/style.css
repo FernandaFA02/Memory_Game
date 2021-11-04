@@ -22,7 +22,6 @@ body{
 
 header{
     grid-area: header;
-    background-color: #;
     color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
@@ -30,14 +29,12 @@ header{
 
 section{
     grid-area: section;
-    background-color: #;
     color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
 }
 
 main{
     grid-area: main;
-    background-color: #;
     color: blanchedalmond;
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +43,6 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: #;
     color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;

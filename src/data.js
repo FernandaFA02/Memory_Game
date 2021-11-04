@@ -22,7 +22,7 @@ let iterarTarjetas = (data) => {
         </div>
         </div>`;
     }
-
+//iterarTarjetas.sort(() => 0.5 - Math.random())
     }
 
 

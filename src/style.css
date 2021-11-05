@@ -6,7 +6,7 @@
 body{
     display: grid;
     width: auto;
-    background-color: black;
+    background-image: url(../Data/assets/Villanos/villians1.jpg);
     height: 100vh;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 0.5fr 3fr 0.3fr;
@@ -22,6 +22,10 @@ body{
 
 header{
     grid-area: header;
+    background: #ca00ff;
+    background: radial-gradient(circle farthest-corner at center center, #ca00ff 0%, #070807 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #ca00ff 0%, #070807 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #ca00ff 0%, #070807 80%);
     color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
     text-align: center;
@@ -29,6 +33,7 @@ header{
 
 section{
     grid-area: section;
+    background-color: black;
     color: blanchedalmond;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -57,7 +62,7 @@ footer{
 /*----------Css flip transitions---------------*/
 
 .memory-container{
-    width: 145px;
+    width: 155px;
     height: 150px;
     background-color: transparent;
     perspective: 1000px;
@@ -71,10 +76,13 @@ footer{
     transform-style: preserve-3d;
 }
 
-/*
+
 .memory-portrait:hover{
-    transform: rotateY(180deg);
-}*/
+    box-shadow: 2px 2px 78px 97px rgba(230,42,222,0.75);
+    -webkit-box-shadow: 2px 2px 78px 97px rgba(230,42,222,0.75);
+    -moz-box-shadow: 2px 2px 78px 97px rgba(230,42,222,0.75);
+
+}
 
 .memory-cover, .memory-back{
     position: absolute;
@@ -85,14 +93,15 @@ footer{
 }
 
 .memory-cover{
-    background-image: url(../Data/assets/Villanos/fondo1.jpg);
+    background-image: url(../Data/assets/Villanos/V1.png);
     background-size: cover;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding: 1.5em;
+    
     text-align: center;
 }
 

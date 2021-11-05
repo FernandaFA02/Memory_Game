@@ -5,7 +5,7 @@ let player2 = document.getElementById('jugador-2');
 let score1 = document.getElementById('score-1');
 let score2 = document.getElementById('score-2');
 player2.style.color = "#fff"
-player1.style.color = "#ea3634"
+player1.style.color = "#BF00FF"
 score1.innerHTML = "0"
 score2.innerHTML = "0"
 
@@ -62,14 +62,14 @@ window.memory = {
                     console.log(puntuacion1);
                     document.getElementById('score-1').innerHTML = puntuacion1;
                     document.getElementById('jugador-1').style.color = "#fff";
-                    document.getElementById('jugador-2').style.color = "#f79105";
+                    document.getElementById('jugador-2').style.color = "#BF00FF";
                 }else{
                     console.log("turno playe1");
                     turn = true;
                     puntuacion2++;
                     console.log(puntuacion2)
                     document.getElementById('score-2').innerHTML = puntuacion2;
-                    document.getElementById('jugador-1').style.color = "#ea3634";
+                    document.getElementById('jugador-1').style.color = "#BF00FF";
                     document.getElementById('jugador-2').style.color = "#fff"
                 }
                 //Aquí se puede hacer una funcion para agregar el sonido
@@ -100,5 +100,7 @@ window.memory = {
     }
 
 }
+
+
 
 

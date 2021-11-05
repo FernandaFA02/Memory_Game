@@ -17,7 +17,7 @@
 
 ## **Descripción**
 
-_Aplicación para jugar memorama en línea._
+_Aplicación para jugar memorama en pareja._
 
 ----
 
@@ -50,6 +50,12 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 ![2.Planeación](./Data/assets/Planeación2.png)
 
 ![3.Planeación](./Data/assets/Planeacion3.png)
+
+![4.Planeación](./Data/assets/Planeación4.png)
+
+![4.Planeación](./Data/assets/Planeación5.png)
+
+![4.Planeación](./Data/assets/Planeación6.png)
 
 ----
 

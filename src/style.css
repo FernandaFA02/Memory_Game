@@ -2,8 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rock+Salt&family=Satisfy&display=swap');
 
-/*-------Estilos para el body------------------------------------------------------------*/
-body{
+/*-------------------------Se agregan estilos a primera pantalla--------------------------*/
+#pantalla1{
+    display: flex;
+    background-image: url(../Data/assets/Villanos/V.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    flex-direction: column;
+    flex-flow: column;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin: 25%;
+}
+
+#pantalla1 p{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#pantalla1 input{
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#pantalla1 button{
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/*-------Estilos para pantalla 2------------------------------------------------------------*/
+#pantalla2{
     display: grid;
     width: auto;
     background-image: url(../Data/assets/Villanos/villians1.jpg);

@@ -1,5 +1,18 @@
 //Se importan modulos
 import { getCards } from "./data.js";
+
+
+
+//Se crea una funcion para atraer desde el html la primera pantalla y activar el boton de jugar y realizar el cambio de pantallas
+let botonJugar = document.getElementById('start')
+botonJugar.addEventListener('click', () => {
+    //Se atren las pantllas desde el html
+    document.getElementById('pantalla1').hidden = true;
+    document.getElementById('pantalla2').hidden = false;
+    player1.innerHTML = document.getElementById('input-1').value + ": "
+    player2.innerHTML = document.getElementById('input-2').value + ": "
+})
+
 //Se crean variables para atraer desde el html los jugadores y los puntajes
 let player1 = document.getElementById('jugador-1');
 let player2 = document.getElementById('jugador-2');

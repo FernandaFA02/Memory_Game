@@ -15,7 +15,6 @@ let botonReinicio = document.getElementById('reset')
 botonReinicio.addEventListener('click', () => {
     console.log("click en boton reset");
     location.reload();
-    
 })
 
 let click = false; //booleano
@@ -35,7 +34,7 @@ window.memory = {
     },
     checkMatch : (cardName, cardId) => { //booleano
         //voltear cartas
-        //let cardFlip = document.getElementById(cardId + "_flip")
+        let cardFlip = document.getElementById(cardId + "_flip")
         let cardFlip1;
         let cardFlip2;        
         //console.log(cardFlip)
@@ -62,7 +61,7 @@ window.memory = {
             //Comparar si la carta1 == carta2 es un match
             if(carta1 == carta2 && id1 != id2){
                 //alert("es un match")
-                cardFlip1.removeAttribute("onclick");
+                cardFlip.removeAttribute("onclick");
                 cardFlip2.removeAttribute("onclick");  
                 console.log(cardFlip2)  
                 carta1 = null;
@@ -102,7 +101,7 @@ window.memory = {
                 id1 = null;
                 id2 = null;
                 disabled = undefined;
-                },5000);
+                },2000);
                 if(turn){
                     console.log("turno player2");
                     turn = false;

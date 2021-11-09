@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rock+Salt&family=Satisfy&display=swap');
 
+body{
+    width: auto;
+    height: 100vh;
+    background-color: black;
+}
+
 /*-------------------------Se agregan estilos a primera pantalla--------------------------*/
 #pantalla1{
     display: flex;

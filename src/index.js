@@ -1,8 +1,6 @@
 //Se importan modulos
 import { getCards } from "./data.js";
 
-
-
 //Se crea una funcion para atraer desde el html la primera pantalla y activar el boton de jugar y realizar el cambio de pantallas
 let botonJugar = document.getElementById('start')
 botonJugar.addEventListener('click', () => {

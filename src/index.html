@@ -29,7 +29,7 @@
         </main>
     
         <!--Se crea la segunda pantalla, la cuál contendrá el juego-->
-        <section id="pantalla2">
+        <section hidden id="pantalla2">
         <header>
             <h1>Disney Villains Memory Game</h1>
         </header>
@@ -50,9 +50,15 @@
             </div>
         </section>
 
-        <main id="juego">
-
-        </main>
+        <main id="juego"></main>
+        
+        <div id="sonidos">
+            <div id="acierto"><audio src="../Data/assets/CardsSounds/acierto.mp3"></audio></div>
+            <div id="flip"><audio src="../Data/assets/CardsSounds/flip.wav"></audio></div>
+            <div id="perdedor"><audio src="../Data/assets/CardsSounds/perdedor.mp3"></audio></div>
+            <div id="ganador"><audio src="../Data/assets/CardsSounds/ganador.mp3"></audio></div>
+            <div id="fondo"><audio src="../Data/assets/CardsSounds/ursula.mp3"></audio></div>
+        </div>
 
         <footer>
             <p>Created by: Fernanda Fajardo, CDMX-2021</p>

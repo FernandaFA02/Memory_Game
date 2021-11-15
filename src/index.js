@@ -47,7 +47,7 @@ window.memory = {
         //voltear cartas
         let cardFlip = document.getElementById(cardId + "_flip")
         let cardFlip1;
-        let cardFlip2;        
+        let cardFlip2;     
         //console.log(cardFlip)
         //cardFlip.style.transform = "rotateY(180deg)";
         console.log(cardName, cardId)
@@ -129,7 +129,6 @@ window.memory = {
     }
 
 }
-
 
 
 

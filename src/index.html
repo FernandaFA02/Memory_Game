@@ -11,6 +11,25 @@
         <!--Se agrega liga de font awesome-->
         <script src="https://kit.fontawesome.com/69a219632b.js" crossorigin="anonymous"></script>
     <body>
+
+        <!--Se agrega primera pantalla para el ingreso de nombres de los jugadores-->
+        <main id="pantalla1">
+            <header>
+                <h1>Disney Villains Memory Game</h1>
+            </header>
+            <p>Por favor ingrese los nombres de los jugadores</p>
+            <input class="input" type="text" id="input-1" placeholder="Jugador 1"/>
+            <input class="input" type="text" id="input-2" placeholder="Jugador 2"/>
+            <button id="start" type="button" class="btn btn-outline-danger">Jugar</button>
+            <footer>
+                <p>Created by: Fernanda Fajardo, CDMX-2021</p>
+                    <a href="https://github.com/FernandaFA02" target="_blank" id="social"><i class="fab fa-github">Github</i></a>
+                    <a href="https://www.linkedin.com/in/fernanda-fajardo-6a83b4216/" target="_blank" id="social"><i class="fab fa-linkedin">Linkedin</i></a>
+            </footer> 
+        </main>
+    
+        <!--Se crea la segunda pantalla, la cuál contendrá el juego-->
+        <section hidden id="pantalla2">
         <header>
             <h1>Disney Villains Memory Game</h1>
         </header>
@@ -27,20 +46,28 @@
                 <p id="score-2">Puntuación: </p>
             </div>
             <div class="nuevo-juego">
-            <button type="button" class="btn btn-outline-danger">Volver a Jugar</button>
+            <button id="reset" type="button" class="btn btn-outline-danger">Volver a Jugar</button>
             </div>
         </section>
 
-        <main id="juego">
+        <main id="juego"></main>
+        
+        <!--------------------Agregando tag de los audios ue se utilizarán en el juego---------------------------->
+        <audio id="fondo" src="../Data/assets/CardsSounds/ursula.mp3"></audio>
+        <audio id="match" src="../Data/assets/CardsSounds/acierto.mp3"></audio>
+        <audio id="flip" src="../Data/assets/CardsSounds/flip.wav"></audio>
+        <audio id="nomatch" src="../Data/assets/CardsSounds/nomatch.mp3"></audio>
+        <audio id="winner" src="../Data/assets/CardsSounds/ganador.mp3"></audio>
+        <audio id="empate" src="../Data/assets/CardsSounds/empate.mp3"></audio>
 
-        </main>
-
+        <!--------------------Footer----------------------------------------------------------->
         <footer>
             <p>Created by: Fernanda Fajardo, CDMX-2021</p>
                 <a href="https://github.com/FernandaFA02" target="_blank" id="social"><i class="fab fa-github">Github</i></a>
                 <a href="https://www.linkedin.com/in/fernanda-fajardo-6a83b4216/" target="_blank" id="social"><i class="fab fa-linkedin">Linkedin</i></a>
         </footer>
-        
+    </section>
+
         <script src="index.js" type="module"></script>
 
         <script>

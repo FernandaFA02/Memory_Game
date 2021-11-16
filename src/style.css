@@ -2,8 +2,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rock+Salt&family=Satisfy&display=swap');
 
-/*-------Estilos para el body------------------------------------------------------------*/
-body{
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    background-color: black;
+    width: auto;
+    height: auto;
+    }
+
+/*-------------------------Se agregan estilos a primera pantalla--------------------------*/
+#pantalla1{
+
+    display: flex;
+    width: auto;
+    height: 100vh;
+    background-image: url(../Data/assets/Villanos/villians.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    flex-flow: column;
+    column-gap: normal;
+    margin: 0%;
+}
+
+#pantalla1 p{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: greenyellow;
+}
+
+#pantalla1 input{
+    background-color:#fff;
+    height: 40px;
+    width: auto;
+    margin: 10% 10% 0% 10%;
+    padding: 1%;
+    border-radius:100px;
+    font-weight:bold;
+    text-align:center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#pantalla1 button{
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/*-------Estilos para pantalla 2------------------------------------------------------------*/
+#pantalla2{
     display: grid;
     width: auto;
     background-image: url(../Data/assets/Villanos/villians1.jpg);
@@ -40,7 +89,6 @@ section{
 
 main{
     grid-area: main;
-    color: blanchedalmond;
     display: flex;
     flex-wrap: wrap;
     gap: 1em 1em;

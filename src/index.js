@@ -149,7 +149,7 @@ function playNomatch ()  {
 //Funcion para reproducir la canción de fondo
 function playFondo ()  {
     const fondoSound = document.getElementById('fondo')
-    fondoSound.volume = 0.5;
+    fondoSound.volume = 0.2;
     fondoSound.loop = true;
     fondoSound.play()
 }

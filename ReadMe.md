@@ -10,8 +10,7 @@
 4. _Planeación_
 5. _Diagrama de flujo_
 6. _Maquetación_
-7. _Pseudocódigo_
-8. _Producto final_
+7. _Producto final_
 
 ----
 
@@ -25,7 +24,7 @@ _Aplicación para jugar memorama en pareja._
 
 ### **Definición del usuario**
 
-Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
+Para público en general, niños, jovenes y adultos, que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ### **User Stories**
 
@@ -41,6 +40,8 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ## **Hacker Edition**
 
+_Una agradable experiencia de juego usando sonidos como efectos y música de fondo mientras juega._
+
 ----
 
 ## **Planeación**
@@ -53,9 +54,13 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ![4.Planeación](./Data/assets/Planeación4.png)
 
-![4.Planeación](./Data/assets/Planeación5.png)
+![5.Planeación](./Data/assets/Planeación5.png)
 
-![4.Planeación](./Data/assets/Planeación6.png)
+![6.Planeación](./Data/assets/Planeación6.png)
+
+![7.Planeación](./Data/assets/Planeación7.png)
+
+![8.Planeación](./Data/assets/Planeación8.png)
 
 ----
 
@@ -67,14 +72,14 @@ Personas que disfruten las peliculas de Disney pero sobretodo a sus villanos.
 
 ## **Maquetación**
 
-![Maquetación](./Data/assets/Maquet2.png)
+![Maquetación](./Data/assets/Maquet1.png)
 
-![Maquetacion](./Data/assets/Maquet1.png)
-
-----
-
-## **Pseudocódigo**
+![Maquetacion](./Data/assets/Maquet2.png)
 
 ----
 
 ## **Producto final**
+
+![1.Producto_Final](./Data/assets/Producto1.png)
+
+![2.Producto_Final](./Data/assets/Producto2.png)

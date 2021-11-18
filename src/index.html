@@ -20,7 +20,7 @@
             <p>Por favor ingrese los nombres de los jugadores</p>
             <input class="input" type="text" id="input-1" placeholder="Jugador 1"/>
             <input class="input" type="text" id="input-2" placeholder="Jugador 2"/>
-            <button id="start" type="button" class="btn btn-outline-danger">Jugar</button>
+            <button id="start" type="button" class="btn btn-dark">Jugar</button>
             <footer>
                 <p>Created by: Fernanda Fajardo, CDMX-2021</p>
                     <a href="https://github.com/FernandaFA02" target="_blank" id="social"><i class="fab fa-github">Github</i></a>
@@ -37,30 +37,31 @@
         <section>
             <h2>Jugadores</h2>
             <br> <hr>
-            <div id="player1">
+            <div >
                 <h3 id="jugador-1">Jugador 1</h3>
                 <p id="score-1">Puntuación: </p>
             </div>
-            <div id="player2">
+            <div >
                 <h3 id="jugador-2">Jugador 2</h3>
                 <p id="score-2">Puntuación: </p>
             </div>
             <div class="nuevo-juego">
             <button id="reset" type="button" class="btn btn-outline-danger">Volver a Jugar</button>
+            <button id="inicio" type="button" class="btn btn-outline-danger">Regresar a inicio</button>
             </div>
         </section>
 
         <main id="juego"></main>
         
-        <!--------------------Agregando tag de los audios ue se utilizarán en el juego---------------------------->
-        <audio id="fondo" src="../Data/assets/CardsSounds/ursula.mp3"></audio>
+        <!--------------------Agregando tag de los audios que se utilizarán en el juego---------------------------->
+        <audio id="fondo" src="../Data/assets/CardsSounds/suspenso.mp3"></audio>
         <audio id="match" src="../Data/assets/CardsSounds/acierto.mp3"></audio>
         <audio id="flip" src="../Data/assets/CardsSounds/flip.wav"></audio>
-        <audio id="nomatch" src="../Data/assets/CardsSounds/nomatch.mp3"></audio>
+        <audio id="nomatch" src="../Data/assets/CardsSounds/looser.mp3"></audio>
         <audio id="winner" src="../Data/assets/CardsSounds/ganador.mp3"></audio>
         <audio id="empate" src="../Data/assets/CardsSounds/empate.mp3"></audio>
 
-        <!--------------------Footer----------------------------------------------------------->
+        <!-----------------------------------------Footer----------------------------------------------------------->
         <footer>
             <p>Created by: Fernanda Fajardo, CDMX-2021</p>
                 <a href="https://github.com/FernandaFA02" target="_blank" id="social"><i class="fab fa-github">Github</i></a>
@@ -69,6 +70,7 @@
     </section>
 
         <script src="index.js" type="module"></script>
+        <script src="app.js" ></script>
 
         <script>
 

@@ -113,7 +113,7 @@ window.memory = {
 //Funcion para cuando una tirada no es match
 function playNomatch ()  {
     const noMatchSound = document.getElementById('nomatch')
-    noMatchSound.volume = 0.3;
+    noMatchSound.volume = 0.1;
     noMatchSound.play()
 }
 

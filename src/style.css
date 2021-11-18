@@ -18,30 +18,21 @@
     display: flex;
     width: auto;
     height: 100vh;
-    background-image: url(../Data/assets/Villanos/villians.jpg);
-    background-size: cover;
-    opacity: 0.8;
+    background-image: url(../Data/assets/Villanos/fondo8.jpg);
+    background-size: contain;
+    opacity: 0.5;
     flex-flow: column;
     column-gap: normal;
     margin: 0% 10% 0% 10%  ;
 }
 
-@media only screen and (max-width: 1900px){
-    #pantalla1{
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-}
-
-#pantalla1 image {
-    max-width: 100%;
-    height: 100vh;
-}
 
 #pantalla1 p{
     text-align: center;
     font-family: 'Berkshire Swash', cursive;
-    color: greenyellow;
+    color: white;
+    background-color: rgba(240, 182, 240, 0.425);
+    border-radius: 10px;
 }
 
 #pantalla1 input{

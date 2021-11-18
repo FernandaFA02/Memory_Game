@@ -30,3 +30,7 @@ botonJugar.addEventListener('click', () => {
 let botonReinicio = document.getElementById('reset')
 botonReinicio.addEventListener('click', getCards);
 
+let botonMenu = document.getElementById('inicio')
+botonMenu.addEventListener('click', () => {
+    location.reload();
+})

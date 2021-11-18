@@ -113,14 +113,14 @@ window.memory = {
 //Funcion para cuando una tirada no es match
 function playNomatch ()  {
     const noMatchSound = document.getElementById('nomatch')
-    noMatchSound.volume = 0.1;
+    noMatchSound.volume = 0.5;
     noMatchSound.play()
 }
 
 //Funcion para reproducir la canción de fondo
 function playFondo ()  {
     const fondoSound = document.getElementById('fondo')
-    fondoSound.volume = 0.2;
+    fondoSound.volume = 0.1;
     fondoSound.loop = true;
     fondoSound.play()
 }
@@ -135,6 +135,7 @@ function stopFondo ()  {
 //Funcion para cuando se acierta un match
 function playAcierto ()  {
     const aciertoSound = document.getElementById('match')
+    aciertoSound.volume = 0.5
     aciertoSound.play()
 }
 
